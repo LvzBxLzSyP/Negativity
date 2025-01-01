@@ -1,7 +1,7 @@
 name: Build Negativity
 
 # For each push on all branchs
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   build:
